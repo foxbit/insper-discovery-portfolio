@@ -48,25 +48,25 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           const Icon = item.icon;
           
           return (
-            <Link key={item.path} href={item.path}>
-              <a 
-                className={cn(
-                  "flex items-center gap-3 px-3 py-2.5 text-sm font-medium transition-all duration-200 group relative",
-                  isActive 
-                    ? "text-sidebar-primary-foreground bg-sidebar-primary shadow-sm" 
-                    : "text-sidebar-foreground/70 hover:text-sidebar-foreground hover:bg-sidebar-accent"
-                )}
-                onClick={() => setIsMobileOpen(false)}
-              >
-                <Icon 
-                  weight={isActive ? "fill" : "regular"} 
-                  className={cn("w-5 h-5", isActive ? "text-sidebar-primary-foreground" : "text-sidebar-foreground/50 group-hover:text-sidebar-foreground")} 
-                />
-                {item.label}
-                {isActive && (
-                  <div className="absolute right-0 top-0 bottom-0 w-1 bg-primary-foreground/20" />
-                )}
-              </a>
+            <Link 
+              key={item.path} 
+              href={item.path}
+              className={cn(
+                "flex items-center gap-3 px-3 py-2.5 text-sm font-medium transition-all duration-200 group relative",
+                isActive 
+                  ? "text-sidebar-primary-foreground bg-sidebar-primary shadow-sm" 
+                  : "text-sidebar-foreground/70 hover:text-sidebar-foreground hover:bg-sidebar-accent"
+              )}
+              onClick={() => setIsMobileOpen(false)}
+            >
+              <Icon 
+                weight={isActive ? "fill" : "regular"} 
+                className={cn("w-5 h-5", isActive ? "text-sidebar-primary-foreground" : "text-sidebar-foreground/50 group-hover:text-sidebar-foreground")} 
+              />
+              {item.label}
+              {isActive && (
+                <div className="absolute right-0 top-0 bottom-0 w-1 bg-primary-foreground/20" />
+              )}
             </Link>
           );
         })}

@@ -13,3 +13,4 @@
 - [ ] Renomear item de menu "Home" para "O projeto" em Layout.tsx
 - [ ] Baixar avatar do usuário para assets
 - [ ] Implementar card de perfil no rodapé da sidebar em Layout.tsx
+- [ ] Corrigir aninhamento de <a> dentro de <Link> em Layout.tsx
