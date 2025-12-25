@@ -71,17 +71,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         })}
       </nav>
 
-      <div className="mt-auto px-2 pt-8 border-t border-sidebar-border/50">
-        <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-full bg-sidebar-accent flex items-center justify-center text-xs font-bold text-sidebar-foreground">
-            PP
-          </div>
-          <div className="flex flex-col">
-            <span className="text-xs font-medium text-sidebar-foreground">PP Concursos</span>
-            <span className="text-[10px] text-sidebar-foreground/50">Discovery Partner</span>
-          </div>
-        </div>
-      </div>
+
     </div>
   );
 
