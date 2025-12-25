@@ -10,7 +10,8 @@ import {
   Lightbulb, 
   ListChecks,
   List,
-  X
+  X,
+  ArrowRight
 } from "phosphor-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -70,6 +71,33 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           );
         })}
       </nav>
+
+      <div className="mt-auto px-2 pt-8 border-t border-sidebar-border/50">
+        <div className="bg-sidebar-accent/50 rounded-sm p-3 border border-sidebar-border flex flex-col gap-3">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full overflow-hidden border border-sidebar-border shrink-0">
+              <img 
+                src="/images/avatar-angelo.png" 
+                alt="Angelo Rosa" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="flex flex-col min-w-0">
+              <span className="text-sm font-bold text-sidebar-foreground truncate">Angelo Rosa</span>
+              <span className="text-[10px] text-sidebar-foreground/60 font-medium uppercase tracking-wide truncate">Product Designer</span>
+            </div>
+          </div>
+          
+          <a 
+            href="https://portifolio-arcreator.netlify.app/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 w-full bg-sidebar-foreground text-sidebar-background text-xs font-bold py-2 px-3 rounded-sm hover:bg-sidebar-foreground/90 transition-colors"
+          >
+            Ver Portfólio <ArrowRight weight="bold" className="w-3 h-3" />
+          </a>
+        </div>
+      </div>
 
 
     </div>

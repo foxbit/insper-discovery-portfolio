@@ -11,3 +11,5 @@
 - [ ] Criar componente ScrollToTop.tsx para resetar scroll na navegação
 - [ ] Integrar ScrollToTop no App.tsx
 - [ ] Renomear item de menu "Home" para "O projeto" em Layout.tsx
+- [ ] Baixar avatar do usuário para assets
+- [ ] Implementar card de perfil no rodapé da sidebar em Layout.tsx
