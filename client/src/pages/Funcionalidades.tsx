@@ -47,7 +47,7 @@ export default function Funcionalidades() {
       <SectionHeader 
         kicker="Roadmap"
         title="O Que Construir?"
-        subtitle="Com base nas dores e oportunidades, definimos os módulos essenciais para o MVP do novo Sistema de Gestão Acadêmica."
+        subtitle="Com base nas dores e oportunidades, defini os módulos essenciais para o MVP do novo Sistema de Gestão Acadêmica."
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

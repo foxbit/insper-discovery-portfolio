@@ -57,7 +57,7 @@ export default function Sobre() {
         <div className="max-w-3xl mx-auto text-center">
           <h3 className="font-display font-bold text-2xl md:text-3xl mb-6">O Contexto do Projeto</h3>
           <p className="text-lg opacity-90 leading-relaxed">
-            "A Insper nos procurou com um desafio claro: a operação cresceu, mas as ferramentas não. Precisávamos entender como digitalizar e otimizar o fluxo de ponta a ponta, da venda de um curso customizado até a alocação da sala de aula."
+            "A Insper me procurou com um desafio claro: a operação cresceu, mas as ferramentas não. Precisei entender como digitalizar e otimizar o fluxo de ponta a ponta, da venda de um curso customizado até a alocação da sala de aula."
           </p>
         </div>
       </div>

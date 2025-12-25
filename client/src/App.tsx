@@ -18,9 +18,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/sobre" component={Sobre} />
-      <Route path="/desafios" component={Home} /> {/* Alias to Home/Challenge section */}
       <Route path="/metodologia" component={Metodologia} />
-      <Route path="/mercado" component={Sobre} /> {/* Alias to Sobre/Context */}
       <Route path="/personas" component={Personas} />
       <Route path="/dores" component={Dores} />
       <Route path="/insights" component={Insights} />

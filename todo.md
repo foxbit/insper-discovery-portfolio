@@ -1,0 +1,10 @@
+- [ ] Remover item "O Projeto" do menu em Layout.tsx
+- [ ] Remover item "Mercado" do menu em Layout.tsx
+- [ ] Remover rotas redundantes em App.tsx
+- [ ] Reescrever Home.tsx em primeira pessoa
+- [ ] Reescrever Sobre.tsx em primeira pessoa
+- [ ] Reescrever Metodologia.tsx em primeira pessoa
+- [ ] Reescrever Personas.tsx em primeira pessoa
+- [ ] Reescrever Dores.tsx em primeira pessoa
+- [ ] Reescrever Insights.tsx em primeira pessoa
+- [ ] Reescrever Funcionalidades.tsx em primeira pessoa

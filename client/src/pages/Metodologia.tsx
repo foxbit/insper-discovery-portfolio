@@ -8,19 +8,19 @@ export default function Metodologia() {
     {
       icon: Users,
       title: "Imersão & Entrevistas",
-      desc: "Realizamos entrevistas em profundidade com 5 stakeholders chave, do operacional ao diretivo, para entender as dores reais.",
+      desc: "Realizei entrevistas em profundidade com 5 stakeholders chave, do operacional ao diretivo, para entender as dores reais.",
       details: ["Diretoria", "Comercial", "Operações", "Planejamento"]
     },
     {
       icon: MagnifyingGlass,
       title: "Análise de Artefatos",
-      desc: "Mergulhamos nas planilhas, relatórios e sistemas atuais para mapear o fluxo de dados e identificar gargalos.",
+      desc: "Mergulhei nas planilhas, relatórios e sistemas atuais para mapear o fluxo de dados e identificar gargalos.",
       details: ["Planilhas de Alocação", "Relatórios de Vendas", "Sistemas Legados"]
     },
     {
       icon: FlowArrow,
       title: "Mapeamento de Jornadas",
-      desc: "Desenhamos o fluxo atual (As-Is) e identificamos os pontos de fricção onde a informação se perde ou se corrompe.",
+      desc: "Desenhei o fluxo atual (As-Is) e identifiquei os pontos de fricção onde a informação se perde ou se corrompe.",
       details: ["Blueprint de Serviço", "Fluxo de Informação", "Pontos de Contato"]
     }
   ];
@@ -30,7 +30,7 @@ export default function Metodologia() {
       <SectionHeader 
         kicker="Processo"
         title="Metodologia de Discovery"
-        subtitle="Não adivinhamos. Investigamos. Nossa abordagem combinou pesquisa qualitativa com análise rigorosa de processos."
+        subtitle="Não adivinhei. Investiguei. Minha abordagem combinou pesquisa qualitativa com análise rigorosa de processos."
       />
 
       <div className="relative mb-24">

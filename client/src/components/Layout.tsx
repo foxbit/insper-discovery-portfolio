@@ -19,9 +19,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 const menuItems = [
   { path: "/", label: "Home", icon: House },
   { path: "/sobre", label: "Sobre a Insper", icon: Buildings },
-  { path: "/desafios", label: "O Projeto", icon: Target },
   { path: "/metodologia", label: "Metodologia", icon: MagnifyingGlass },
-  { path: "/mercado", label: "Mercado", icon: Users }, // Using Users as proxy for Market/People
   { path: "/personas", label: "Personas", icon: Users },
   { path: "/dores", label: "Dores & Desafios", icon: WarningCircle },
   { path: "/insights", label: "Insights", icon: Lightbulb },

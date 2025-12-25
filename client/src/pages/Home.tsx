@@ -28,7 +28,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-xl">
-                Como transformamos processos manuais e dados fragmentados em uma visão estratégica unificada para uma das maiores escolas de negócios do Brasil.
+                Como transformei processos manuais e dados fragmentados em uma visão estratégica unificada para uma das maiores escolas de negócios do Brasil.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/sobre">
@@ -119,7 +119,7 @@ export default function Home() {
           />
           <VitrineCard 
             title="Processos Manuais"
-            description="Equipes de alta performance gastando horas em tarefas repetitivas de alocação e verificação manual."
+            description="Identifiquei equipes de alta performance gastando horas em tarefas repetitivas de alocação e verificação manual."
             icon={Strategy}
             variant="highlight"
             delay={2}

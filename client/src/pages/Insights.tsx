@@ -9,7 +9,7 @@ export default function Insights() {
       <SectionHeader 
         kicker="O Futuro"
         title="Insights & Oportunidades"
-        subtitle="Não precisamos reinventar a roda. A solução está em conectar os pontos e dar poder aos dados que a Insper já possui."
+        subtitle="Não precisei reinventar a roda. A solução está em conectar os pontos e dar poder aos dados que a Insper já possui."
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">

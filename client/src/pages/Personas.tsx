@@ -40,7 +40,7 @@ export default function Personas() {
       <SectionHeader 
         kicker="Usuários"
         title="Quem faz a operação girar?"
-        subtitle="Mapeamos os principais atores do processo para entender suas motivações, dores e necessidades diárias."
+        subtitle="Mapeei os principais atores do processo para entender suas motivações, dores e necessidades diárias."
       />
 
       <Tabs defaultValue="rina" className="w-full">

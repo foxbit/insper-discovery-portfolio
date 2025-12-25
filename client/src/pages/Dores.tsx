@@ -9,7 +9,7 @@ export default function Dores() {
       <SectionHeader 
         kicker="Diagnóstico"
         title="Onde a operação trava?"
-        subtitle="Identificamos 5 grandes categorias de problemas que impedem a Insper de escalar sua operação de Educação Executiva com eficiência."
+        subtitle="Identifiquei 5 grandes categorias de problemas que impedem a Insper de escalar sua operação de Educação Executiva com eficiência."
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
