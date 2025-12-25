@@ -17,7 +17,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const menuItems = [
-  { path: "/", label: "Home", icon: House },
+  { path: "/", label: "O projeto", icon: House },
   { path: "/sobre", label: "Sobre a Insper", icon: Buildings },
   { path: "/metodologia", label: "Metodologia", icon: MagnifyingGlass },
   { path: "/personas", label: "Personas", icon: Users },
