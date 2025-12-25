@@ -8,3 +8,5 @@
 - [ ] Reescrever Dores.tsx em primeira pessoa
 - [ ] Reescrever Insights.tsx em primeira pessoa
 - [ ] Reescrever Funcionalidades.tsx em primeira pessoa
+- [ ] Criar componente ScrollToTop.tsx para resetar scroll na navegação
+- [ ] Integrar ScrollToTop no App.tsx
