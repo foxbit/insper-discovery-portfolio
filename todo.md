@@ -14,3 +14,4 @@
 - [ ] Baixar avatar do usuário para assets
 - [ ] Implementar card de perfil no rodapé da sidebar em Layout.tsx
 - [ ] Corrigir aninhamento de <a> dentro de <Link> em Layout.tsx
+- [ ] Corrigir cor do texto do botão no card de perfil em Layout.tsx (text-sidebar-background -> text-white)

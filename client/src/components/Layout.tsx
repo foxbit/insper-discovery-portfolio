@@ -92,7 +92,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             href="https://portifolio-arcreator.netlify.app/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 w-full bg-sidebar-foreground text-sidebar-background text-xs font-bold py-2 px-3 rounded-sm hover:bg-sidebar-foreground/90 transition-colors"
+            className="flex items-center justify-center gap-2 w-full bg-sidebar-foreground text-white text-xs font-bold py-2 px-3 rounded-sm hover:bg-sidebar-foreground/90 transition-colors"
           >
             Ver Portfólio <ArrowRight weight="bold" className="w-3 h-3" />
           </a>
