@@ -7,30 +7,30 @@ export default function Metodologia() {
   const steps = [
     {
       icon: Users,
-      title: "Imersão & Entrevistas",
-      desc: "Realizei entrevistas em profundidade com 5 stakeholders chave, do operacional ao diretivo, para entender as dores reais.",
-      details: ["Diretoria", "Comercial", "Operações", "Planejamento"]
+      title: "Immersion & Interviews",
+      desc: "I conducted in-depth interviews with 5 key stakeholders, from operational to executive level, to understand the real pain points.",
+      details: ["Executive Board", "Sales", "Operations", "Planning"]
     },
     {
       icon: MagnifyingGlass,
-      title: "Análise de Artefatos",
-      desc: "Mergulhei nas planilhas, relatórios e sistemas atuais para mapear o fluxo de dados e identificar gargalos.",
-      details: ["Planilhas de Alocação", "Relatórios de Vendas", "Sistemas Legados"]
+      title: "Artifact Analysis",
+      desc: "I dived into the current spreadsheets, reports and systems to map the data flow and identify bottlenecks.",
+      details: ["Allocation Spreadsheets", "Sales Reports", "Legacy Systems"]
     },
     {
       icon: FlowArrow,
-      title: "Mapeamento de Jornadas",
-      desc: "Desenhei o fluxo atual (As-Is) e identifiquei os pontos de fricção onde a informação se perde ou se corrompe.",
-      details: ["Blueprint de Serviço", "Fluxo de Informação", "Pontos de Contato"]
+      title: "Journey Mapping",
+      desc: "I mapped the current flow (As-Is) and identified the friction points where information gets lost or corrupted.",
+      details: ["Service Blueprint", "Information Flow", "Touchpoints"]
     }
   ];
 
   return (
     <Layout>
       <SectionHeader 
-        kicker="Processo"
-        title="Metodologia de Discovery"
-        subtitle="Não adivinhei. Investiguei. Minha abordagem combinou pesquisa qualitativa com análise rigorosa de processos."
+        kicker="Process"
+        title="Discovery Methodology"
+        subtitle="I didn't guess. I investigated. My approach combined qualitative research with rigorous process analysis."
       />
 
       <div className="relative mb-24">
@@ -76,9 +76,9 @@ export default function Metodologia() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="bg-card border border-border p-8 relative overflow-hidden group">
           <div className="relative z-10">
-            <h3 className="font-display font-bold text-xl mb-4">O Resultado</h3>
+            <h3 className="font-display font-bold text-xl mb-4">The Result</h3>
             <p className="text-muted-foreground">
-              Uma visão clara e documentada de que o problema não era "falta de esforço", mas sim "falta de ferramentas adequadas". O diagnóstico permitiu traçar um plano de ação cirúrgico.
+              A clear, documented view that the problem was not "lack of effort", but rather "lack of proper tools". The diagnosis made it possible to chart a surgical action plan.
             </p>
           </div>
           <div className="absolute right-0 bottom-0 opacity-5 transform translate-x-1/4 translate-y-1/4 group-hover:scale-110 transition-transform duration-700">

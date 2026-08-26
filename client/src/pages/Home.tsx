@@ -19,26 +19,26 @@ export default function Home() {
               transition={{ duration: 0.6 }}
             >
               <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider mb-6">
-                Case Study: Insper Educação Executiva
+                Case Study: Insper Executive Education
               </span>
               <h1 className="font-display font-bold text-5xl md:text-6xl lg:text-7xl tracking-tighter leading-[0.9] mb-6 text-foreground">
-                Redesenhando a <br/>
+                Redesigning the <br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60">
-                  Operação Acadêmica
+                  Academic Operations
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-xl">
-                Como transformei processos manuais e dados fragmentados em uma visão estratégica unificada para uma das maiores escolas de negócios do Brasil.
+                How I turned manual processes and fragmented data into a unified strategic vision for one of Brazil's leading business schools.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/sobre">
                   <Button size="lg" className="rounded-none h-12 px-8 text-base font-medium bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
-                    Explorar o Case <ArrowRight className="ml-2 w-4 h-4" />
+                    Explore the Case <ArrowRight className="ml-2 w-4 h-4" />
                   </Button>
                 </Link>
                 <Link href="/metodologia">
                   <Button variant="outline" size="lg" className="rounded-none h-12 px-8 text-base font-medium border-primary/20 hover:bg-primary/5 hover:text-primary">
-                    Ver Metodologia
+                    View Methodology
                   </Button>
                 </Link>
               </div>
@@ -60,8 +60,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
                   <div className="text-white">
-                    <p className="font-mono text-xs opacity-70 mb-1">PROJETO</p>
-                    <p className="font-display font-bold text-2xl">PP Discovery Portfolio</p>
+                    <p className="font-mono text-xs opacity-70 mb-1">PROJECT</p>
+                    <p className="font-display font-bold text-2xl">Insper Discovery Portfolio</p>
                   </div>
                 </div>
               </div>
@@ -78,10 +78,10 @@ export default function Home() {
       <section className="mb-24">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-border border border-border">
           {[
-            { label: "Stakeholders Entrevistados", value: "5", suffix: "Key Players" },
-            { label: "Áreas Impactadas", value: "4", suffix: "Departamentos" },
-            { label: "Faturamento Anual", value: "78", suffix: "Milhões (Meta)" },
-            { label: "Duração do Discovery", value: "4", suffix: "Semanas" },
+            { label: "Stakeholders Interviewed", value: "5", suffix: "Key Players" },
+            { label: "Areas Impacted", value: "4", suffix: "Departments" },
+            { label: "Annual Revenue", value: "78", suffix: "Million (Target)" },
+            { label: "Discovery Duration", value: "4", suffix: "Weeks" },
           ].map((stat, i) => (
             <motion.div 
               key={i}
@@ -104,29 +104,29 @@ export default function Home() {
       {/* Overview Section */}
       <section className="mb-24">
         <SectionHeader 
-          kicker="Visão Geral"
-          title="O Desafio do Crescimento"
-          subtitle="A Insper cresceu exponencialmente, mas seus processos operacionais permaneceram analógicos. O resultado? Um 'Iceberg' de ineficiências ocultas."
+          kicker="Overview"
+          title="The Growth Challenge"
+          subtitle="Insper grew exponentially, but its operational processes remained analog. The result? An 'Iceberg' of hidden inefficiencies."
         />
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <VitrineCard 
-            title="Dados Fragmentados"
-            description="Informações críticas espalhadas em dezenas de planilhas desconectadas, gerando inconsistência e retrabalho diário."
+            title="Fragmented Data"
+            description="Critical information scattered across dozens of disconnected spreadsheets, causing daily inconsistency and rework."
             icon={ChartLineUp}
             variant="alert"
             delay={0}
           />
           <VitrineCard 
-            title="Processos Manuais"
-            description="Identifiquei equipes de alta performance gastando horas em tarefas repetitivas de alocação e verificação manual."
+            title="Manual Processes"
+            description="I found high-performance teams spending hours on repetitive allocation tasks and manual checks."
             icon={Strategy}
             variant="highlight"
             delay={2}
           />
           <VitrineCard 
-            title="Visibilidade Limitada"
-            description="Gestores sem acesso a métricas em tempo real para tomada de decisão estratégica sobre cursos e recursos."
+            title="Limited Visibility"
+            description="Managers without access to real-time metrics for strategic decision-making about courses and resources."
             icon={MagnifyingGlass}
             variant="default"
             delay={4}
@@ -139,11 +139,11 @@ export default function Home() {
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <Users className="w-12 h-12 text-primary mx-auto mb-8 opacity-50" />
           <blockquote className="font-display font-medium text-2xl md:text-4xl leading-tight text-foreground mb-8">
-            "Precisamos de uma visão gerencial que nos permita entender não apenas o que aconteceu, mas o que vai acontecer na nossa operação."
+            "We need a management view that lets us understand not only what happened, but what is going to happen in our operation."
           </blockquote>
           <cite className="not-italic flex flex-col items-center">
             <span className="font-bold text-lg">Silvio Abrahão Laban Neto</span>
-            <span className="text-sm text-muted-foreground font-mono uppercase tracking-widest">Diretor da Área</span>
+            <span className="text-sm text-muted-foreground font-mono uppercase tracking-widest">Area Director</span>
           </cite>
         </div>
         
@@ -155,11 +155,11 @@ export default function Home() {
 
       {/* Next Steps CTA */}
       <section className="mb-12 text-center">
-        <h2 className="font-display font-bold text-3xl mb-6">Mergulhe nos Detalhes</h2>
+        <h2 className="font-display font-bold text-3xl mb-6">Dive into the Details</h2>
         <div className="flex justify-center gap-4">
           <Link href="/sobre">
             <Button size="lg" className="rounded-none h-14 px-10 text-lg bg-foreground text-background hover:bg-foreground/90">
-              Começar a Jornada <ArrowRight className="ml-2" />
+              Start the Journey <ArrowRight className="ml-2" />
             </Button>
           </Link>
         </div>

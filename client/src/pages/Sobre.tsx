@@ -7,9 +7,9 @@ export default function Sobre() {
   return (
     <Layout>
       <SectionHeader 
-        kicker="O Cliente"
-        title="Insper: Excelência em Educação"
-        subtitle="Uma das instituições de ensino e pesquisa mais respeitadas da América Latina, referência em Negócios, Economia, Direito, Engenharia e Ciência da Computação."
+        kicker="The Client"
+        title="Insper: Excellence in Education"
+        subtitle="One of Latin America's most respected teaching and research institutions, a benchmark in Business, Economics, Law, Engineering and Computer Science."
       />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
@@ -20,13 +20,13 @@ export default function Sobre() {
           className="prose prose-lg text-muted-foreground"
         >
           <p className="lead text-foreground font-medium">
-            O Insper é uma instituição sem fins lucrativos dedicada ao ensino e à pesquisa. Sua missão é promover a transformação do Brasil por meio da formação de líderes inovadores e da pesquisa aplicada.
+            Insper is a nonprofit institution dedicated to teaching and research. Its mission is to drive Brazil's transformation through the education of innovative leaders and applied research.
           </p>
           <p>
-            Com um campus moderno em São Paulo, a instituição se destaca pelo rigor acadêmico e pela forte conexão com o mercado. A área de <strong>Educação Executiva</strong>, foco deste projeto, é responsável por manter profissionais e líderes atualizados em um mundo em constante transformação.
+            With a modern campus in São Paulo, the institution stands out for its academic rigor and strong connection with the market. The <strong>Executive Education</strong> area, the focus of this project, is responsible for keeping professionals and leaders up to date in a constantly changing world.
           </p>
           <p>
-            A complexidade da operação de Educação Executiva reside na sua diversidade: cursos abertos de curta duração, programas customizados para empresas (B2B), MBAs e certificados, todos exigindo uma orquestração precisa de professores, salas e recursos.
+            The complexity of the Executive Education operation lies in its diversity: short open-enrollment courses, custom programs for companies (B2B), MBAs and certificates — all requiring precise orchestration of faculty, classrooms and resources.
           </p>
         </motion.div>
 
@@ -38,9 +38,9 @@ export default function Sobre() {
         >
           {[
             { icon: Buildings, title: "Campus", desc: "Vila Olímpia, SP" },
-            { icon: Student, title: "Alunos", desc: "Milhares/ano" },
-            { icon: Globe, title: "Alcance", desc: "Internacional" },
-            { icon: Trophy, title: "Reconhecimento", desc: "Triple Crown" },
+            { icon: Student, title: "Students", desc: "Thousands/year" },
+            { icon: Globe, title: "Reach", desc: "International" },
+            { icon: Trophy, title: "Recognition", desc: "Triple Crown" },
           ].map((item, i) => (
             <div key={i} className="bg-card border border-border p-6 flex flex-col items-center text-center hover:border-primary/30 transition-colors group">
               <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center text-secondary-foreground mb-4 group-hover:scale-110 transition-transform">
@@ -55,9 +55,9 @@ export default function Sobre() {
 
       <div className="bg-foreground text-background p-8 md:p-12 rounded-sm mb-20">
         <div className="max-w-3xl mx-auto text-center">
-          <h3 className="font-display font-bold text-2xl md:text-3xl mb-6">O Contexto do Projeto</h3>
+          <h3 className="font-display font-bold text-2xl md:text-3xl mb-6">The Project Context</h3>
           <p className="text-lg opacity-90 leading-relaxed">
-            "A Insper me procurou com um desafio claro: a operação cresceu, mas as ferramentas não. Precisei entender como digitalizar e otimizar o fluxo de ponta a ponta, da venda de um curso customizado até a alocação da sala de aula."
+            "Insper approached me with a clear challenge: the operation grew, but the tools did not. I needed to understand how to digitize and optimize the end-to-end flow, from selling a custom course to allocating the classroom."
           </p>
         </div>
       </div>

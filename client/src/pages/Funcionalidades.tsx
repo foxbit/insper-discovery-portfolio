@@ -4,39 +4,39 @@ import { CheckCircle } from "phosphor-react";
 
 const modules = [
   {
-    title: "Módulo de Gestão de Cursos",
+    title: "Course Management Module",
     features: [
-      "Cadastro unificado de programas e turmas",
-      "Versionamento de fichas técnicas",
-      "Status de aprovação e workflow",
-      "Histórico de alterações"
+      "Unified registration of programs and cohorts",
+      "Versioning of technical specs",
+      "Approval status and workflow",
+      "Change history"
     ]
   },
   {
-    title: "Módulo de Alocação de Recursos",
+    title: "Resource Allocation Module",
     features: [
-      "Visualização de calendário (Gantt/Semanal)",
-      "Detecção automática de conflitos",
-      "Sugestão inteligente de salas",
-      "Gestão de equipamentos e layout"
+      "Calendar view (Gantt/Weekly)",
+      "Automatic conflict detection",
+      "Smart room suggestions",
+      "Equipment and layout management"
     ]
   },
   {
-    title: "Módulo Financeiro & Performance",
+    title: "Financial & Performance Module",
     features: [
-      "Cálculo automático de margem por turma",
-      "Acompanhamento de realizado vs orçado",
-      "Indicadores de produtividade da equipe",
-      "Relatórios de ocupação de salas"
+      "Automatic margin calculation per cohort",
+      "Tracking of actual vs budget",
+      "Team productivity indicators",
+      "Room occupancy reports"
     ]
   },
   {
-    title: "Portal do Stakeholder",
+    title: "Stakeholder Portal",
     features: [
-      "Visão personalizada por perfil (Comercial, Acadêmico, Operações)",
-      "Notificações de mudanças críticas",
-      "Acesso rápido a documentos e contratos",
-      "Dashboard executivo para diretoria"
+      "Personalized view by profile (Sales, Academic, Operations)",
+      "Critical change notifications",
+      "Quick access to documents and contracts",
+      "Executive dashboard for the board"
     ]
   }
 ];
@@ -46,8 +46,8 @@ export default function Funcionalidades() {
     <Layout>
       <SectionHeader 
         kicker="Roadmap"
-        title="O Que Construir?"
-        subtitle="Com base nas dores e oportunidades, defini os módulos essenciais para o MVP do novo Sistema de Gestão Acadêmica."
+        title="What to Build?"
+        subtitle="Based on the pain points and opportunities, I defined the essential modules for the MVP of the new Academic Management System."
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

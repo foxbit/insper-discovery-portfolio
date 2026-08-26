@@ -8,29 +8,29 @@ const personas = [
   {
     id: "rina",
     name: "Rina Xavier",
-    role: "Head de Educação Executiva",
+    role: "Head of Executive Education",
     image: "/images/persona-rina.png",
-    quote: "Preciso saber se vamos bater a meta de 78 milhões sem ter que perguntar para três pessoas diferentes.",
-    goals: ["Visão consolidada de receita", "Gestão eficiente da equipe", "Crescimento sustentável"],
-    pains: ["Dados fragmentados", "Falta de visibilidade em tempo real", "Processos manuais que geram erro"]
+    quote: "I need to know if we're going to hit the 78 million target without having to ask three different people.",
+    goals: ["Consolidated revenue view", "Efficient team management", "Sustainable growth"],
+    pains: ["Fragmented data", "Lack of real-time visibility", "Manual processes that create errors"]
   },
   {
     id: "debora",
     name: "Débora Lopes",
-    role: "Analista Comercial",
+    role: "Sales Analyst",
     image: "/images/persona-debora.png",
-    quote: "Meu trabalho é vender, mas passo metade do tempo preenchendo planilhas que ninguém lê.",
-    goals: ["Agilidade na contratação", "Faturamento sem erros", "Comunicação fluida com o jurídico"],
-    pains: ["Retrabalho em planilhas", "Informação descentralizada", "Dependência de outros para status"]
+    quote: "My job is to sell, but I spend half my time filling in spreadsheets nobody reads.",
+    goals: ["Agility in contracting", "Error-free billing", "Fluid communication with legal"],
+    pains: ["Spreadsheet rework", "Decentralized information", "Dependence on others for status"]
   },
   {
     id: "richard",
     name: "Richard Feliciano",
-    role: "Planejamento de Salas",
+    role: "Room Planning",
     image: "/images/persona-richard.png",
-    quote: "É um quebra-cabeça diário. Se uma informação muda na ponta, todo o meu planejamento de salas cai.",
-    goals: ["Alocação otimizada de recursos", "Previsibilidade de demanda", "Automação de conflitos"],
-    pains: ["Mudanças de última hora não comunicadas", "Dados de entrada inconsistentes", "Processo 100% manual"]
+    quote: "It's a daily puzzle. If one piece of information changes at the edge, my entire room plan falls apart.",
+    goals: ["Optimized resource allocation", "Demand predictability", "Conflict automation"],
+    pains: ["Last-minute changes not communicated", "Inconsistent input data", "100% manual process"]
   }
 ];
 
@@ -38,9 +38,9 @@ export default function Personas() {
   return (
     <Layout>
       <SectionHeader 
-        kicker="Usuários"
-        title="Quem faz a operação girar?"
-        subtitle="Mapeei os principais atores do processo para entender suas motivações, dores e necessidades diárias."
+        kicker="Users"
+        title="Who keeps the operation running?"
+        subtitle="I mapped the main actors in the process to understand their motivations, pain points and daily needs."
       />
 
       <Tabs defaultValue="rina" className="w-full">
@@ -85,7 +85,7 @@ export default function Personas() {
                     <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                       <Target weight="duotone" className="w-6 h-6" />
                     </div>
-                    <h4 className="font-display font-bold text-xl">Objetivos Principais</h4>
+                    <h4 className="font-display font-bold text-xl">Main Goals</h4>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {persona.goals.map((goal, i) => (
@@ -102,7 +102,7 @@ export default function Personas() {
                     <div className="w-10 h-10 rounded-full bg-destructive/10 flex items-center justify-center text-destructive">
                       <Warning weight="duotone" className="w-6 h-6" />
                     </div>
-                    <h4 className="font-display font-bold text-xl">Dores & Frustrações</h4>
+                    <h4 className="font-display font-bold text-xl">Pain Points & Frustrations</h4>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {persona.pains.map((pain, i) => (

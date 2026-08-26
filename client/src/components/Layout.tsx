@@ -18,13 +18,13 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const menuItems = [
-  { path: "/", label: "O projeto", icon: House },
-  { path: "/sobre", label: "Sobre a Insper", icon: Buildings },
-  { path: "/metodologia", label: "Metodologia", icon: MagnifyingGlass },
+  { path: "/", label: "The Project", icon: House },
+  { path: "/sobre", label: "About Insper", icon: Buildings },
+  { path: "/metodologia", label: "Methodology", icon: MagnifyingGlass },
   { path: "/personas", label: "Personas", icon: Users },
-  { path: "/dores", label: "Dores & Desafios", icon: WarningCircle },
+  { path: "/dores", label: "Pain Points & Challenges", icon: WarningCircle },
   { path: "/insights", label: "Insights", icon: Lightbulb },
-  { path: "/funcionalidades", label: "Funcionalidades", icon: ListChecks },
+  { path: "/funcionalidades", label: "Features", icon: ListChecks },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -94,7 +94,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 w-full bg-sidebar-foreground text-white text-xs font-bold py-2 px-3 rounded-sm hover:bg-sidebar-foreground/90 transition-colors"
           >
-            Ver Portfólio <ArrowRight weight="bold" className="w-3 h-3" />
+            View Portfolio <ArrowRight weight="bold" className="w-3 h-3" />
           </a>
         </div>
       </div>

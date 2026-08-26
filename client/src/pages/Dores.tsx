@@ -7,43 +7,43 @@ export default function Dores() {
   return (
     <Layout>
       <SectionHeader 
-        kicker="Diagnóstico"
-        title="Onde a operação trava?"
-        subtitle="Identifiquei 5 grandes categorias de problemas que impedem a Insper de escalar sua operação de Educação Executiva com eficiência."
+        kicker="Diagnosis"
+        title="Where does the operation get stuck?"
+        subtitle="I identified 5 major categories of problems that prevent Insper from scaling its Executive Education operation efficiently."
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
         <VitrineCard 
-          title="Gestão de Dados"
-          description="Falta de padronização e inconsistência no preenchimento de planilhas críticas, gerando uma base de dados não confiável."
+          title="Data Management"
+          description="Lack of standardization and inconsistency in filling critical spreadsheets, creating an unreliable data foundation."
           icon={Database}
           variant="alert"
           delay={0}
         />
         <VitrineCard 
-          title="Falta de Automação"
-          description="Processos de alocação de salas e cálculo de indicadores feitos manualmente, consumindo horas preciosas da equipe."
+          title="Lack of Automation"
+          description="Room allocation and metric calculation processes done manually, consuming precious team hours."
           icon={Robot}
           variant="alert"
           delay={1}
         />
         <VitrineCard 
-          title="Visibilidade Gerencial"
-          description="Diretoria sem acesso a dashboards em tempo real, dependendo de relatórios estáticos e defasados para tomar decisões."
+          title="Management Visibility"
+          description="Executive board without access to real-time dashboards, relying on static, outdated reports to make decisions."
           icon={ChartBar}
           variant="alert"
           delay={2}
         />
         <VitrineCard 
-          title="Silos de Comunicação"
-          description="Interfaces entre as áreas Comercial, Acadêmica e Operações geram ruído e perda de informação na passagem de bastão."
+          title="Communication Silos"
+          description="Interfaces between Sales, Academic and Operations areas generate noise and information loss during handoffs."
           icon={ArrowsLeftRight}
           variant="highlight"
           delay={3}
         />
         <VitrineCard 
-          title="Escalabilidade"
-          description="O modelo atual, baseado em esforço humano intensivo, não suporta o crescimento projetado de 20% ao ano."
+          title="Scalability"
+          description="The current model, based on intensive human effort, cannot support the projected 20% annual growth."
           icon={Scales}
           variant="highlight"
           delay={4}
@@ -51,19 +51,19 @@ export default function Dores() {
       </div>
 
       <div className="bg-muted/30 border border-border p-8 md:p-12">
-        <h3 className="font-display font-bold text-2xl mb-6">O Custo da Ineficiência</h3>
+        <h3 className="font-display font-bold text-2xl mb-6">The Cost of Inefficiency</h3>
         <div className="space-y-6">
           <div className="flex items-center justify-between border-b border-border pb-4">
-            <span className="text-muted-foreground">Tempo gasto em correção de dados</span>
-            <span className="font-mono font-bold text-destructive">~15h / semana</span>
+            <span className="text-muted-foreground">Time spent on data correction</span>
+            <span className="font-mono font-bold text-destructive">~15h / week</span>
           </div>
           <div className="flex items-center justify-between border-b border-border pb-4">
-            <span className="text-muted-foreground">Risco de conflito de salas</span>
-            <span className="font-mono font-bold text-destructive">Alto</span>
+            <span className="text-muted-foreground">Room conflict risk</span>
+            <span className="font-mono font-bold text-destructive">High</span>
           </div>
           <div className="flex items-center justify-between border-b border-border pb-4">
-            <span className="text-muted-foreground">Delay na informação gerencial</span>
-            <span className="font-mono font-bold text-destructive">D-7 (Semanal)</span>
+            <span className="text-muted-foreground">Management information delay</span>
+            <span className="font-mono font-bold text-destructive">D-7 (Weekly)</span>
           </div>
         </div>
       </div>
